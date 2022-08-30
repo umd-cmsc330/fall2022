@@ -45,7 +45,7 @@ In this course, we will primarily be using Ruby and OCaml.  Below is a summary o
 First, you will need to clone this repository to your local filesystem.  You'll only have to do this once this semester (unless you have multiple computers or delete the repository).  To do this, run:
 
 ```
-git clone https://github.com/umd-cmsc330/cmsc330fall22
+git clone https://github.com/umd-cmsc330/cmsc330fall2022
 ```
 
 The files in the `project0` folder will be used for the [Verifying Setup](#verifying-setup) section at the bottom.
