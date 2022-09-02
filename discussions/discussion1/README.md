@@ -93,7 +93,7 @@ We use these to describe when a pattern is to be repeated. Note that the repetit
 - Negation: `/[^a-z]/`, `/[^0-9]/`
 We use these to exclude a range of characters.
 
-Regular expressions in Ruby also have backreferences, which allow us to extract patterns from a string that are of interest. We can group a part of the Regex to be captured between parentheses and reference them using the syntax `$n`, where `n` is the index of the desired backreference. 
+Regular expressions in Ruby also have capture groups, which allow us to extract patterns from a string that are of interest. We can group a part of the Regex to be captured between parentheses and reference them using the syntax `$n`, where `n` is the index of the desired capture group. 
 
 ```ruby
 p = /(\w) (\d) ([bcde])/            # If a string matches this regex, $1 will refer to anything matched by \w, and $2 will refer to anything matched by \d and so on.
