@@ -110,5 +110,5 @@ end
 s2 = "Lightyear 123456789"
 if p1 =~ s2 then
     puts $2.to_i                    # Will print out the student's UID as an integer i.e. 123456789.
-end                                 # Notice how the backreferences are reset each time you do a match
+end                                 # Notice how the variables storing the capture groups are reset each time you do a match
 ```
