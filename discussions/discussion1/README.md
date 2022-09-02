@@ -101,7 +101,7 @@ p = /(\w) (\d) ([bcde])/            # If a string matches this regex, $1 will re
 
 ```ruby
 p1 = /([A-Z][a-z]+) ([0-9]{9})/     # Regex that matches on a student's first name, followed by a space, followed by a 9 digit UID.
-p2 = /([A-Z]\w) (\d{9})/            # Equivalent Regex to p1
+p2 = /([A-Z]\w+) (\d{9})/            # Equivalent Regex to p1
 s1 = "Dan 314159265"
 if p1 =~ s1 then
     puts $1                         # Will print out the student's name
