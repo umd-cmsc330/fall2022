@@ -1,0 +1,19 @@
+(2,2)
+ALL NON CONFORMING LINES SHOULD BE IGNORED
+(3,2)
+(4,2)
+(5,2)
+LIKE THIS ONE
+(6,2)
+AND THIS ONE
+(7,2)
+(2,2)
+(2,4)
+(5,8)
+(7,7)
+(4,9)
+(8,3)
+(3,3)
+(1,3)
+(8,9)
+(9,9)

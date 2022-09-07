@@ -1,0 +1,5 @@
+(2,2), Right, 3
+(4,2), Right, 2
+(5,2), Right, 4
+(6,2), Right, 5
+(7,2), Right, 5
