@@ -1,4 +1,4 @@
-# Discussion 2 - Friday, September 9<sup>nd</sup>
+# Discussion 2 - Friday, September 9<sup>th</sup>
  
 
 ## Introduction
