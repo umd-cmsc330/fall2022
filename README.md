@@ -2,6 +2,7 @@
 
 ## Discussions
 * [Discussion 1 - Intro to Ruby and Regex](./discussions/discussion1)
+* [Discussion 2 - Modules, Mixins and File I/O](./discussions/discussion2)
 
 ## Projects
 * [Project 0 - Setup](./project0)
