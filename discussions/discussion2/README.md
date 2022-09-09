@@ -5,8 +5,6 @@
 
 Last week, we reviewed fundamental OOP concepts in Ruby and introduced the concept of regular expressions. Today, we will be building on both of these concepts. In particular, we will explore modules, mixins and file I/O in Ruby.
 
-**Note to TAs: Please open the code to go over the example with students.** 
-
 ## Part 1: `Animals`
 
 We want to create classes that represent different animals, namely a `Bat`, `Puffin`, `Turtle`, `Fish` and `Bear`. We will describe attributes of these animals using modules and mixing in those modules (mixins).
