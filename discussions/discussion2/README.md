@@ -1,8 +1,5 @@
-# Discussion 1 - Friday, September 9<sup>nd</sup>
+# Discussion 2 - Friday, September 9<sup>nd</sup>
  
-
- **Note to TAs: Please ensure that students have at least 20 minutes at the end to work on the quiz.** 
-
 
 ## Introduction
 
