@@ -115,7 +115,7 @@ You can use codeblocks with numbers and strings as well.
 
 ```ruby
 5.upto(10) { |x| puts x }                       # will print from 5 to 10
-"Go Terps!".split(",").each { |x| puts x }      # will print "Go", "Terps!"
+"Go Terps!".split(" ").each { |x| puts x }      # will print "Go", "Terps!"
 ```
 
 Now that we know about codeblocks, we can use them with file I/O to make our lives easier.
