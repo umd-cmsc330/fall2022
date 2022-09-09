@@ -20,6 +20,12 @@ module WingedAnimal
     end
 end
 
+module AquaticAnimal
+    def swim
+        puts 'Hello, I am something that can swim!'
+    end
+end
+
 module LandAnimalWrong
     def walk
         puts 'Hello, I am something that cannot walk!'
