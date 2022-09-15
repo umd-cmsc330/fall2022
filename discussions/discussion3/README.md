@@ -4,8 +4,6 @@
 
 This week, we dive into Ocaml in discussions. We will be covering a breadth of material in Ocaml. Projects 2 to 4 are in Ocaml. So, please make sure you understand the fundamentals of the language as best as possible. Today, we will be covering **Ocaml expressions, values, and types, let bindings, let expressions, lists, pattern matching, tuples, variants, functions, and recursive functions `rec`**.
 
-### **Note to TAs: Please open the code to go over the example with students.**
-
 ## Part 1: Ocaml expressions, values, and types
 
 Some basics of Ocaml. Ocaml is a compiled and bootstrapped language. It is implicitly typed. That means, the compiler infers the type of your variables and values at compile time. Ocaml is also statically typed, meaning once the type of a variable is infered, the variable must abide by the type throughout its scope. Everything in Ocaml is immutable. Everything means everything. Once you initialize a variable, you cannot change throughout its scope. You should redefine it to change it. That being said, `=` is an equality operator and not the assignment operator outside `let` expressions. 
@@ -85,8 +83,6 @@ let check_a_string str_param =
 ```
 
 Notice how each branch in a function (maybe if-else or pattern matching) should return the same data type.
-
-### Note to TAs: Go over how Ocaml implicitly infers the type of parameters in the functions. If you do not see types of the expression in the examples, consider them as the opportunity of exercise.
 
 The general pattern for determining the type of any function is:
 
