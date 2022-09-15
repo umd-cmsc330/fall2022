@@ -51,13 +51,12 @@ Functions, conventionally, are multiline reusable code that might or might not d
 Example:
 
 ```ocaml
-let my_function = 5;; (* type: int *)
-let my_function2 a = a;; (* type 'a -> 'a *)
+let my_function a = a;; (* type 'a -> 'a *)
 ```
 analogous to (java)
 ```java
-int my_function() {
-    return 5;
+<T> T my_function(T a) {
+    return a;
 }
 ```
 
