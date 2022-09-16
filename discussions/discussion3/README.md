@@ -8,7 +8,7 @@ This week, we dive into Ocaml in discussions. We will be covering a breadth of m
 
 Some basics of Ocaml. Ocaml is a compiled and bootstrapped language. It is implicitly typed. That means, the compiler infers the type of your variables and values at compile time. Ocaml is also statically typed, meaning once the type of a variable is infered, the variable must abide by the type throughout its scope. Everything in Ocaml is immutable. Everything means everything. Once you initialize a variable, you cannot change throughout its scope. You should redefine it to change it. That being said, `=` is an equality operator and not the assignment operator outside `let` expressions. 
 
-Some primitive built-in data types are `int`, `float`, `char`, `string`, `bool`, and `unit`. Other composite data types include `tuples`, `lists`, `option`, and variants. **Note that**
+Some primitive built-in data types are `int`, `float`, `char`, `string`, `bool`, and `unit`. Other composite data types include `tuples`, `lists`, `option`, and variants.
 
 We know the primitive data types but we will learn more about the others later down in the discussion. Arithmetic operators in Ocaml are not overloaded. So, you can use `+`, `-`, `*`, `/` on two ints but not on floats. For floats, they are `+.`, `-.`, `*.`, `/.`. **Notice the period**.
 
@@ -94,7 +94,7 @@ The use of `rec` keyword makes a function recursive. You do not need to make rec
 
 ```ocaml
 let rec fibonacci num = 
-    if num = 1 then 1 else num * (fibonacci (num - 1)) (* int -> int *)
+    if num = 1 then 1 else num + (fibonacci (num - 1)) (* int -> int *)
 ```
 
 ## Part 4: Lists, Tuples, Variants
