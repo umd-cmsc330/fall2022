@@ -94,7 +94,7 @@ The use of `rec` keyword makes a function recursive. You do not need to make rec
 
 ```ocaml
 let rec factorial num = 
-    if num = 1 then 1 else num * (fibonacci (num - 1)) (* int -> int *)
+    if num = 1 then 1 else num * (factorial (num - 1)) (* int -> int *)
 ```
 
 ## Part 4: Lists, Tuples, Variants
