@@ -93,8 +93,8 @@ The general pattern for determining the type of any function is:
 The use of `rec` keyword makes a function recursive. You do not need to make recursive calls, but if you want to, you need the `rec` keyword.
 
 ```ocaml
-let rec fibonacci num = 
-    if num = 1 then 1 else num + (fibonacci (num - 1)) (* int -> int *)
+let rec factorial num = 
+    if num = 1 then 1 else num * (fibonacci (num - 1)) (* int -> int *)
 ```
 
 ## Part 4: Lists, Tuples, Variants
