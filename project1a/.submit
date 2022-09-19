@@ -1,9 +1,0 @@
-[course]
-id = 417679
-name = "CMSC330"
-term = "Fall 2022"
-
-[assignment]
-id = 2209739
-name = "Project 1a - Ruby Warmup"
-files = [ "src/warmup.rb", "src/phonebook.rb" ]
