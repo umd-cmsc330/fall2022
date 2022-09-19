@@ -113,7 +113,7 @@ These instructions assume you have a Debian-based system (e.g. Ubuntu).  If you 
     - Run `opam init --disable-sandboxing`
     - If it hangs at "Fetching repository information" press Enter. This may take a while, be patient
     - When prompted to modify `~/.profile` (or another file), type "n", but remember the filename
-    - Open `~/.profile` (or the file mentioned above) in your text editor
+    - Open ` t` (or the file mentioned above) in your text editor
     - Add the line `` eval `opam config env` `` (note these are backticks, not single quotes)
     - Save the file
     - Run `source ~/.profile` (or the file you just edited)
