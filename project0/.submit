@@ -1,9 +1,0 @@
-[course]
-id = 417679
-name = "CMSC330"
-term = "Fall 2022"
-
-[assignment]
-id = 2209677
-name = "Project 0 - Setup"
-files = [ "p0.report" ]
