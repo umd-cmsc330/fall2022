@@ -4,6 +4,7 @@
 * [Discussion 1 - Intro to Ruby and Regex](./discussions/discussion1)
 * [Discussion 2 - Modules, Mixins and File I/O](./discussions/discussion2)
 * [Discussion 3 - Intro to OCaml](./discussions/discussion3)
+* [Discussion 4 - Map, Fold and Types](./discussions/discussion4)
 
 ## Projects
 * [Project 0 - Setup](./project0)
