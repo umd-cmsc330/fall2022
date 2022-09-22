@@ -108,5 +108,4 @@ To practice with this, let's write a few functions using map and fold define on 
 
 - Write a function to return the sum of all the elements of a `tree`:
 
-### **Note to TAs: Please use the tree in the solution as a basic example, and create larger trees to show that this works on your own.**
 
