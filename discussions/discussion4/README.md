@@ -58,7 +58,7 @@ let rec size xs =
 ;;
 ```
 
-In each case, we are keeping track of an *accumulator* and adding onto it based on some property of the current element. We can generalize this to any function `f` using `fold` and `fold_right`:
+In each case, we are keeping track of an *accumulator* and adding onto it based on some property of the current element. We can generalize this to any function `f` using `fold` (also known as `fold_left`) and `fold_right`:
 
 ```ocaml
 let rec fold f a lst =
