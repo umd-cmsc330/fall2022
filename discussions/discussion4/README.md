@@ -76,12 +76,13 @@ let rec fold_right f lst a =
 
 A key difference between these two is the order of association. Consider the example of adding all elements of the list `[1;2;3;4]`.  `fold_left` will associate from the left as follows:
 
-`((1 + 2) + 3) + 4`
+`(((0 + 1) + 2) + 3) + 4`
 
 On the other hand, `fold_right` will associate from the right as follows:
 
-`1 + (2 + (3 + 4))`
+`1 + (2 + (3 + (4 + 0)))`
 
+Notice how we assume that our accumulator starts with 0.
 
 ## Part 3: Tree Type
 
