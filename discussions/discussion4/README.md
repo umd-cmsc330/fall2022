@@ -58,7 +58,7 @@ let rec size xs =
 ;;
 ```
 
-In each case, we are keeping track of an *accumulator* and adding onto it based on some property of the current element. We can generalize this to any function `f` using `fold` and `fold_right`:
+In each case, we are keeping track of an *accumulator* and adding onto it based on some property of the current element. We can generalize this to any function `f` using `fold` (also known as `fold_left`) and `fold_right`:
 
 ```ocaml
 let rec fold f a lst =
@@ -76,12 +76,13 @@ let rec fold_right f lst a =
 
 A key difference between these two is the order of association. Consider the example of adding all elements of the list `[1;2;3;4]`.  `fold_left` will associate from the left as follows:
 
-`((1 + 2) + 3) + 4`
+`(((0 + 1) + 2) + 3) + 4`
 
 On the other hand, `fold_right` will associate from the right as follows:
 
-`1 + (2 + (3 + 4))`
+`1 + (2 + (3 + (4 + 0)))`
 
+Notice how we assume that our accumulator starts with 0.
 
 ## Part 3: Tree Type
 
