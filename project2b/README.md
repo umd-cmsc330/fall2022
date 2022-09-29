@@ -1,6 +1,6 @@
 # Project 2b: OCaml Higher Order Functions and Data
 
-Due: October 7, 2022 at 11:59 PM (late October 8, *10% penalty*)
+Due: October 9, 2022 at 11:59 PM (late October 10, *10% penalty*)
 
 Points: 65 public, 35 semipublic
 
