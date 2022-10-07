@@ -6,6 +6,7 @@
 * [Discussion 3 - Intro to OCaml](./discussions/discussion3)
 * [Discussion 4 - Map, Fold and Types](./discussions/discussion4)
 * [Discussion 5 - OCaml Exercises](./discussions/discussion5)
+* [Discussion 6 - Tail Recursion and PBTs](./discussions/discussion6)
 
 ## Projects
 * [Project 0 - Setup](./project0)
