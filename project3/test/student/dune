@@ -1,0 +1,3 @@
+(tests
+    (names student)
+    (libraries str p3 oUnit testUtils))

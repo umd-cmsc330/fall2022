@@ -1,0 +1,3 @@
+(tests
+    (names pbt)
+    (libraries qcheck str p3 oUnit testUtils))
