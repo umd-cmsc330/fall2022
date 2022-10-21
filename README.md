@@ -7,6 +7,7 @@
 * [Discussion 4 - Map, Fold and Types](./discussions/discussion4)
 * [Discussion 5 - OCaml Exercises](./discussions/discussion5)
 * [Discussion 6 - Tail Recursion and PBTs](./discussions/discussion6)
+* [Discussion 7 - NFAs and DFAs](./discussions/discussion7)
 
 ## Projects
 * [Project 0 - Setup](./project0)
