@@ -1,6 +1,6 @@
 # Project 3: Regular Expression Engine
 
-Due: November 2, 2022 at 11:59 PM (late November 3, *10% penalty*)
+Due: November 3, 2022 at 11:59 PM (late November 4, *10% penalty*)
 
 Points: 35 public, 35 semipublic, 30 secret
 
