@@ -1,0 +1,115 @@
+# dune utop src
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3
+# Auto-detected concurrency: 8
+$ /opt/homebrew/bin/ocamlc.opt -config > /var/folders/np/6531nk6s5nbg5zysfxbcs_kr0000gn/T/dune_1d6b86_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/daneshsivakumar/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/opt/homebrew/bin"
+#  ; ocaml = Ok External "/Users/daneshsivakumar/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/opt/homebrew/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/opt/homebrew/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/opt/homebrew/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/opt/homebrew/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/daneshsivakumar/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/opt/homebrew/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3"
+#        ; "INSIDE_DUNE" :
+#            "/Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/daneshsivakumar/Documents/TA/CMSC330/fall2022/project3/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths = [ External "/Users/daneshsivakumar/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/opt/homebrew/lib/ocaml"
+#      ; standard_library = "/opt/homebrew/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "clang"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin21.3.0"
+#      ; target = "aarch64-apple-darwin21.3.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /opt/homebrew/bin/ocamldep.opt -modules -impl src/nfa.ml) > _build/default/src/.p3.objs/nfa.ml.d
+$ (cd _build/default && /opt/homebrew/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -bin-annot -I src/.p3.objs/byte -intf-suffix .ml -no-alias-deps -opaque -open P3 -o src/.p3.objs/byte/p3__Nfa.cmo -c -impl src/nfa.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -a -o src/p3.cma src/.p3.objs/byte/p3.cmo src/.p3.objs/byte/p3__Sets.cmo src/.p3.objs/byte/p3__Nfa.cmo src/.p3.objs/byte/p3__Regexp.cmo)
+$ (cd _build/default && /opt/homebrew/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o src/.utop/utop.exe -output-complete-exe /opt/homebrew/lib/ocaml/compiler-libs/ocamlcommon.cma /opt/homebrew/lib/ocaml/compiler-libs/ocamlbytecomp.cma /opt/homebrew/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/daneshsivakumar/.opam/default/lib/findlib/findlib.cma /Users/daneshsivakumar/.opam/default/lib/findlib/findlib_top.cma /Users/daneshsivakumar/.opam/default/lib/logs/logs.cma -I /opt/homebrew/lib/ocaml /Users/daneshsivakumar/.opam/default/lib/lwt/lwt.cma /Users/daneshsivakumar/.opam/default/lib/logs/logs_lwt.cma /opt/homebrew/lib/ocaml/unix.cma -I /opt/homebrew/lib/ocaml /opt/homebrew/lib/ocaml/bigarray.cma -I /opt/homebrew/lib/ocaml /Users/daneshsivakumar/.opam/default/lib/ocplib-endian/ocplib_endian.cma /Users/daneshsivakumar/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /opt/homebrew/lib/ocaml/threads/threads.cma -I /opt/homebrew/lib/ocaml /Users/daneshsivakumar/.opam/default/lib/lwt/unix/lwt_unix.cma -I /Users/daneshsivakumar/.opam/default/lib/lwt/unix /Users/daneshsivakumar/.opam/default/lib/react/react.cma /Users/daneshsivakumar/.opam/default/lib/lwt_react/lwt_react.cma /Users/daneshsivakumar/.opam/default/lib/result/result.cma /Users/daneshsivakumar/.opam/default/lib/uutf/uutf.cma /Users/daneshsivakumar/.opam/default/lib/uucp/uucp.cma /Users/daneshsivakumar/.opam/default/lib/uuseg/uuseg.cma /Users/daneshsivakumar/.opam/default/lib/zed/zed.cma /Users/daneshsivakumar/.opam/default/lib/trie/trie.cma /Users/daneshsivakumar/.opam/default/lib/mew/mew.cma /Users/daneshsivakumar/.opam/default/lib/mew_vi/mew_vi.cma /Users/daneshsivakumar/.opam/default/lib/lambda-term/lambda_term.cma -I /Users/daneshsivakumar/.opam/default/lib/lambda-term /Users/daneshsivakumar/.opam/default/lib/utop/uTop.cma /opt/homebrew/lib/ocaml/str.cma -I /opt/homebrew/lib/ocaml src/p3.cma src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
