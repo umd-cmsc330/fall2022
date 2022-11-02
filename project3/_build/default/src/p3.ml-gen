@@ -1,0 +1,10 @@
+(** @canonical P3.Nfa *)
+module Nfa = P3__Nfa
+
+
+(** @canonical P3.Regexp *)
+module Regexp = P3__Regexp
+
+
+(** @canonical P3.Sets *)
+module Sets = P3__Sets

@@ -1,0 +1,3 @@
+(tests
+  (names semipublic)
+  (libraries p4b oUnit testUtils))
