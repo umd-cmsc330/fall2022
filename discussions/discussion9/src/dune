@@ -1,0 +1,4 @@
+(library
+  (name disc)
+  (modules lexer parser interpreter)
+  (libraries str))
