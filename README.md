@@ -9,6 +9,7 @@
 * [Discussion 6 - Tail Recursion and PBTs](./discussions/discussion6)
 * [Discussion 7 - NFAs and DFAs](./discussions/discussion7)
 * [Discussion 8 - CFGs](./discussions/discussion8)
+* [Discussion 9 - Lexing, Parsing, Interpreting](./discussions/discussion9)
 
 ## Projects
 * [Project 0 - Setup](./project0)
