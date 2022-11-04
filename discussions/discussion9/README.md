@@ -21,7 +21,7 @@
 * Answer key in `lexer.ml`
 * Note the variant type `token` we have defined.
 * Keep an index that keeps track of where we are in the string, and move forward as we keep tokenizing.
-* In P5, you will have to worry about the order in which you have `if/else` ... `if/else` statements (certain regexs should be checked before others).
+* In P4, you will have to worry about the order in which you have `if/else` ... `if/else` statements (certain regexs should be checked before others).
 * It's probably also a good idea to just define all the regex's and store in variables at the top.
 
 ### Parser
