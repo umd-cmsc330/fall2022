@@ -1,4 +1,4 @@
-# Discussion 10 - Friday, November 4th<sup>st</sup>
+# Discussion 10 - Friday, November 4<sup>th</sup>
 
 ## Coding Excercise
 * To go from source code to a running program, there are 3 steps (at least for our purposes):
