@@ -1,6 +1,6 @@
-# Discussion 10 - Friday, November 4<sup>th</sup>
+# Discussion 9 - Friday, November 4<sup>th</sup>
 
-## Coding Excercise
+## Coding Exercise
 * To go from source code to a running program, there are 3 steps (at least for our purposes):
     * Tokenizing/Lexing (separating text into smaller tokens)
     * Parsing (generating something meaningful from the tokens - an AST)
