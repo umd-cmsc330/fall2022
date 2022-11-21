@@ -1,0 +1,5 @@
+B /home/subomi/.opam/4.07.0/lib/ocaml
+B ../_build/default/src/.disc.objs
+S /home/subomi/.opam/4.07.0/lib/ocaml
+S .
+FLG -open Disc -w -40
