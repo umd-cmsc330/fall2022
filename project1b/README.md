@@ -1,31 +1,19 @@
-# Project 1b: Battleship Game
-
-Due: ~~September 16, 2022 at 11:59 PM (late September 17, *10% penalty*)~~ September 18, 2022 at 11:59 PM (late September 19, *10% penalty*)
-
-Points: 30 public, 36 semipublic, 34 secret
-
-**This is an individual assignment. You must work on this project alone.**
+# Battleship Game
 
 ## Introduction
 
-For this project, you'll complete a Battleship game. [Here](https://www.youtube.com/watch?v=4gHJlYLomrs) is a video of the game, in case you haven't played it before. Your program will do things such as processesing text files containing `Ship` or attack strategy information, and you will process that data to build a 10X10 `GameBoard` of ships and perform attacks on the opponent's `GameBoard`. The goal of this project is to allow you to familiarize yourself with Ruby's built-in data structures, code blocks, and text processing capabilities.
-
-## Submitting
-
-Run `gradescope-submit` to submit.  Or, upload the files `input_controller.rb` and `game_board.rb` to Gradescope manually if you can't get the command to work.
+For this project, I completed a Battleship game. [Here](https://www.youtube.com/watch?v=4gHJlYLomrs) is a video of the game, for those who may not be familiar with the game. This program processes text files containing `Ship` or attack strategy information, and will process that data to build a 10X10 `GameBoard` of ships and perform attacks on the opponent's `GameBoard`. The goal of this project is to allow you to use Ruby's built-in data structures, code blocks, and text processing capabilities.
 
 ## Project Files
 
-To begin this project you will need to run `git pull` to get the updates. This project is located in the `project1b` folder of the repository. The following is the project structure
-
 * controllers
-    * `game_controller.rb`: is provided to you. Don't make any changes to it. (Game Logic)
-    * `input_controller.rb`: **You** will write your input processing code here. (Process Files)
+    * `game_controller.rb`: contains the Game Logic
+    * `input_controller.rb`: contains the text processing code
 * models
-    * `game_board.rb`: **You** will implement the `GameBoard` class here.
-    * `position.rb`: is provided to you. Don't make any changes to it.
-    * `ship.rb`:  is provided to you. Don't make any changes to it.
-* `main.rb`: is provided to you. Don't make any changes to it.
+    * `game_board.rb`: Gameboard class is implemente here
+    * `position.rb`:
+    * `ship.rb`:
+* `main.rb`:
 
 You can run the game (If no attack strategy file provided, it will be randomly generated)
 
@@ -47,7 +35,7 @@ ruby src/main.rb <first player ships information file> <second player ships info
 
 ## Game Logic
 
-We have provided you with the game logic. We call `read_ships_file` to create a `GameBoard` for each player; then, we call `read_attacks_file` to get an Array of `Position` objects which represent the attack strategy of each player. If no attack strategy file is provided, the game controller generates 35 random attack positions and uses them instead. Each player's `GameBoard`'s `attack_pos` method is called alternately with the other player's attacks (i.e., the `Position` objects), one player's attack, then the other's. The game ends on one of these two cases:
+We call `read_ships_file` to create a `GameBoard` for each player; then, we call `read_attacks_file` to get an Array of `Position` objects which represent the attack strategy of each player. If no attack strategy file is provided, the game controller generates 35 random attack positions and uses them instead. Each player's `GameBoard`'s `attack_pos` method is called alternately with the other player's attacks (i.e., the `Position` objects), one player's attack, then the other's. The game ends on one of these two cases:
 
 1. All of the ships of a player are sunk (as determined by the `GameBoard`'s `all_sunk?` method)
    * The winner is that player's opponent.
@@ -77,8 +65,6 @@ STRING METHOD IS NOT IMPLEMENTED
 Player-2 GameBoard
 STRING METHOD IS NOT IMPLEMENTED
 ```
-
-Notice that the `to_s` implementation is optional, but it's highly recommended. It helps with debugging your code. Here is an example with a `to_s` implemented
 
 ```
 Game result:
